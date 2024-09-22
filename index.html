@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Document</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            background-image: url(pika.jpeg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-        }
-    </style>
+    <picture>
+        <source media="(min-width: 650px)" srcset="nature.jpg">
+        <source media="(min-width: 465px)" srcset="nature2.jpg">
+        <img src="nature.jpg">
+    </picture>
 </head>
 <body>
     <h1 style="border: 10px solid dodgerblue;">Hyun's Portfolio</h1>
